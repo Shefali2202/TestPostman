@@ -1,0 +1,13 @@
+{
+  "name": "testpostman",
+  "version": "1.0.0",
+  "scripts": {
+    "runPostman": "newman run jsonplaceholder.postman_collection.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "newman": "^6.2.1"
+  }
+}
