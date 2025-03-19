@@ -2,12 +2,15 @@
   "name": "testpostman",
   "version": "1.0.0",
   "scripts": {
-    "runPostman": "newman run jsonplaceholder.postman_collection.json"
+    "runPostman": "newman run jsonplaceholder.postman_collection.json -r cli,htmlextra —-reporter-htmlextra-export 'newman/report.html' --insecure"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "newman": "^6.2.1"
+    "newman": "^6.2.1" 
+  },
+  "devDependencies": {
+    "newman-reporter-htmlextra": "^1.23.1"
   }
 }
